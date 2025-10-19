@@ -28,6 +28,7 @@ public class Zadanie_2_posle_pereriva {
 
 //в итоге так и не смог это сделать и забил
 
+        
         System.out.println(sb.reverse()
                 .replace(0,1,String.valueOf(one))
                 .replace(1,0,String.valueOf(zero)));

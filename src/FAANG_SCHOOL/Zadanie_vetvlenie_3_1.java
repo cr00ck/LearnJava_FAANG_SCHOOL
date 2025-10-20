@@ -6,9 +6,12 @@ package FAANG_SCHOOL;
 //        Иначе, если только второе число делится на 2, разделите только второе число на 2 и выведите результат вычисления в консоль.
 //        Иначе (если никакое число не делится на 2) просто выведите в консоль сумму этих чисел.
 
+import java.util.Random;
+
 public class Zadanie_vetvlenie_3_1 {
-    int random1 = 3;//new Random().nextInt(0,500);
-    int random2 = 4;//new Random().nextInt(0,500);
+    Random random= new Random();
+    int random1 = new Random().nextInt(0,500);
+    int random2 = new Random().nextInt(0,500);
 
         public void uslovie(){
             if (random1 % 2 ==0 && random2 % 2==0) {

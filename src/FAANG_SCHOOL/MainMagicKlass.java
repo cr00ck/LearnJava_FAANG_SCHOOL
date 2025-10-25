@@ -42,7 +42,7 @@ public class MainMagicKlass {
 //       System.out.println("Возраст студа - " + ageStud);
 //                stud1.castSpell(spell);
         Zadanie_massiv_5_1_posle_pepreriva  z31 = new Zadanie_massiv_5_1_posle_pepreriva ();
-        z31.setArray();
+        z31.prepare();
 
 
 

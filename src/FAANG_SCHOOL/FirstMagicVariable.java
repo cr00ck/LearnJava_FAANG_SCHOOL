@@ -36,6 +36,7 @@ public class FirstMagicVariable {
         System.out.println("charAt is " + s1);
         builder.append("hfhfj ").append( 45454 ).append("grggsg ").append(s2,0,5).reverse();
         System.out.println(builder);
+        System.out.println(s2);
 
 
 

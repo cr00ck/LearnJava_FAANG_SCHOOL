@@ -41,9 +41,8 @@ public class MainMagicKlass {
 //       System.out.println("Супреспособности оригинал - "+ Arrays.toString(superAbility)+"\n суперспособности SET - "+Arrays.toString(Super));
 //       System.out.println("Возраст студа - " + ageStud);
 //                stud1.castSpell(spell);
-
-         Zadanie_vetvlenie_3_1 zad3_1 = new Zadanie_vetvlenie_3_1();
-        zad3_1.uslovie();
+        Zadanie_massiv_5_1_posle_pepreriva  z31 = new Zadanie_massiv_5_1_posle_pepreriva ();
+        z31.setArray();
 
 
 

@@ -100,7 +100,7 @@ public class Zadanie_OOP_6_1_Hippogriff {
         }
         return null;
     }
-//    это надо вставить в MainMagicKlass
+//    чтобы заработало это надо вставить в MainMagicKlass
 //    Zadanie_OOP_6_1_Hippogriff lolo = new Zadanie_OOP_6_1_Hippogriff("lolo ",300," purple",false);
 //       Zadanie_OOP_6_1_Hippogriff popo = new Zadanie_OOP_6_1_Hippogriff("popo ", 500, " зеленый",true);
 //       Zadanie_OOP_6_1_Hippogriff toto = new Zadanie_OOP_6_1_Hippogriff("toto ",3, " pink", true);

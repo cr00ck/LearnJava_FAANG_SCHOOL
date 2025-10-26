@@ -9,7 +9,7 @@ public class Zadanie_OOP_6_1_Hippogriff_posle_pereriva  {
     Random random = new Random();
 
     Scanner scanner = new Scanner(System.in);
-    public void znakomstvo () {
+    private void znakomstvo () {
         System.out.println("как тебя зовут ?");
         String inputName = scanner.nextLine();
         name = inputName;
@@ -30,7 +30,7 @@ public class Zadanie_OOP_6_1_Hippogriff_posle_pereriva  {
 
 
 
-    public Zadanie_OOP_6_1_Hippogriff_posle_pereriva(String name, int age, String color, String shoot) {
+    private Zadanie_OOP_6_1_Hippogriff_posle_pereriva(String name, int age, String color, String shoot) {
         this.name = name;
         this.age = age;
         this.color = color;
@@ -94,18 +94,22 @@ public class Zadanie_OOP_6_1_Hippogriff_posle_pereriva  {
             System.out.println("Да, "+age+" уже норрм! =)\n " + name + " ты уже созрел для полетов!");
         }
     }
-    public Zadanie_OOP_6_1_Students_posle_pereriva giveRide(Zadanie_OOP_6_1_Students_posle_pereriva student){
-        int isGivingRide= random.nextInt(10);
-        System.out.println("случайное число - "+isGivingRide);
-        if(isGivingRide>=3&&isGivingRide<=5){
-            System.out.println(student.getName()+" полетееееел красавец !!");
-        }else if(isGivingRide>=4&&isGivingRide<=8){
-            System.out.println(student.getName()+" демонстративно отворачивается и отказывается летать !!");
-        }else if(isGivingRide==9&&isGivingRide==10){
-            System.out.println(student.getName()+" ты должен попробовать снова !!");
+    public Zadanie_OOP_6_1_Students_posle_pereriva giveRide(Zadanie_OOP_6_1_Students_posle_pereriva student) {
+        int isGivingRide = random.nextInt(10);
+        System.out.println("случайное число - " + isGivingRide);
+        if (isGivingRide >= 3 && isGivingRide <= 5) {
+            System.out.println(student.getName() + " полетееееел красавец !!");
+        } else if (isGivingRide >= 4 && isGivingRide <= 8) {
+            System.out.println(student.getName() + " демонстративно отворачивается и отказывается летать !!");
+        } else if (isGivingRide == 9 && isGivingRide == 10) {
+            System.out.println(student.getName() + " ты должен попробовать снова !!");
+        } else {
+            System.out.println("селяви бич ! ");
         }
+        ;
         return null;
-    };
+    }
+
 
 }
 //надо вставить в main.magic.klass

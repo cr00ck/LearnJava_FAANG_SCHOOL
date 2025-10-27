@@ -1,5 +1,8 @@
 package FAANG_SCHOOL; //https://faang-school.com/courses
 
+import FAANG_SCHOOL.Zadanie_Interface_9_1.Car;
+import FAANG_SCHOOL.Zadanie_Interface_9_1.Cloak;
+
 import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -29,8 +32,9 @@ public class MainMagicKlass {
             System.err.println("Error: " + e.getMessage());
         }
 
-            Zadanie_massiv_5_1_posle_pepreriva zm51 = new Zadanie_massiv_5_1_posle_pepreriva();
-            zm51.prepare();
+            Car zm51 = new Car("Anton",100,true);
+            Cloak zm52 = new Cloak();
+            zm51.isFlyingCar(zm52);
 
         }
 

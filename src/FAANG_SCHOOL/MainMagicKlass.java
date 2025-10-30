@@ -1,5 +1,6 @@
 package FAANG_SCHOOL; //https://faang-school.com/courses
 
+import FAANG_SCHOOL.List_Learning_theory.List_Learning_theory;
 import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ExpandingSpell;
 import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ReducingMagic;
 import FAANG_SCHOOL.Zadanie_Interface_9_1.Car;
@@ -33,6 +34,8 @@ public class MainMagicKlass {
         } catch (Exception e) {
             System.err.println("Error: " + e.getMessage());
         }
+        List_Learning_theory one = new List_Learning_theory();
+        one.setProffessors();
 
 
 

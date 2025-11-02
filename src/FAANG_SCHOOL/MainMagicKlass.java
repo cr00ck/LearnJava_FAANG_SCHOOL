@@ -1,5 +1,7 @@
 package FAANG_SCHOOL; //https://faang-school.com/courses
 
+import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ExpandingSpell;
+import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ReducingMagic;
 import FAANG_SCHOOL.Zadanie_Interface_9_1.Car;
 import FAANG_SCHOOL.Zadanie_Interface_9_1.Cloak;
 
@@ -32,11 +34,9 @@ public class MainMagicKlass {
             System.err.println("Error: " + e.getMessage());
         }
 
-            Car zm51 = new Car("Anton",100,true);
-            Cloak zm52 = new Cloak();
-            zm51.isFlyingCar(zm52);
 
-        }
+
+}
 
     }
 

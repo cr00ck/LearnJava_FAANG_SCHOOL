@@ -1,11 +1,12 @@
 package FAANG_SCHOOL.List_Learning_theory;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class List_Learning_theory {
     public void setProffessors() {
-    ArrayList<String> professors = new ArrayList<>();
+    List<String> professors = new ArrayList<>();
         professors.add("Минерва Макгонаглл");
         professors.add("Снейп Северус");
         professors.add("Аластор Грюм");
@@ -47,10 +48,25 @@ public class List_Learning_theory {
 // Получим [Альбус Дамблдор, Аластор Грюм, Гораций Слизнорт]
         System.out.println(result);
 
+    }
 
+    //LinkedList, благодаря своей ошибке, может быстро вставить большое количество элементов в начало или конец списка.
+    // И также быстро их удалить. Поэтому, если в рамках задачи мы понимаем,
+    // что будем очень часто подавать и удалять и редко будем обращаться к средней строке, то лучше всего использовать LinkedList.
+    //Однако при программировании такие задачи встречаются не так часто, поэтому в большинстве случаев подходит ArrayList.
 
-
-
+    public void setWizards (){
+        List<String> wizards = new LinkedList<>();
+        wizards.add("Рон");
+        wizards.add("Гарри");
+        wizards.add("Гермиона");
+        wizards.add("Хагрид");
+        // Было:
+// null <- "Рон" <-> "Гарри" <-> "Гермиона" <-> "Хагрид" -> null
+        wizards.add(2, "Малфой");
+// Нам не нужно двигать всю правую часть массива
+// достаточно лишь для Гарри и Гермионы поправить ссылки
+// null <- "Рон" <-> "Гарри" <-> "Малфой" <-> "Гермиона" <-> "Хагрид" -> null
     }
 
 }

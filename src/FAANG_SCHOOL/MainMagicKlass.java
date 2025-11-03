@@ -1,5 +1,6 @@
 package FAANG_SCHOOL; //https://faang-school.com/courses
 
+import FAANG_SCHOOL.List_Learning_theory.List_Learning_practice;
 import FAANG_SCHOOL.List_Learning_theory.List_Learning_theory;
 import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ExpandingSpell;
 import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ReducingMagic;
@@ -8,7 +9,9 @@ import FAANG_SCHOOL.Zadanie_Interface_9_1.Cloak;
 
 import java.lang.reflect.Array;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class MainMagicKlass {
     public static void main(String[] args) throws Zadanie_exception_8_2_CustomException_2 {
@@ -34,12 +37,18 @@ public class MainMagicKlass {
         } catch (Exception e) {
             System.err.println("Error: " + e.getMessage());
         }
-        List_Learning_theory one = new List_Learning_theory();
-        one.setProffessors();
+        // Создаем объект нашего класса
+        List_Learning_practice program = new List_Learning_practice();
+        program.listOrderChain();
+        program.transform();
 
 
 
-}
+
+
+
+
+    }
 
     }
 

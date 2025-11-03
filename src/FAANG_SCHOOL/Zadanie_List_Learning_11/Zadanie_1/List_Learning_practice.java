@@ -1,4 +1,4 @@
-package FAANG_SCHOOL.List_Learning_theory;
+package FAANG_SCHOOL.Zadanie_List_Learning_11.Zadanie_1;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -25,7 +25,7 @@ public class List_Learning_practice {
     public List<String> transform() {
           list.removeIf(String::isEmpty);
         System.out.println("Измененный лист : " + list);
-          return list;
+        return List.of();
     }
 
 

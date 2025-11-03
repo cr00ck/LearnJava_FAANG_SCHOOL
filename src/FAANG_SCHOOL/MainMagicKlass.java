@@ -1,17 +1,9 @@
 package FAANG_SCHOOL; //https://faang-school.com/courses
 
-import FAANG_SCHOOL.List_Learning_theory.List_Learning_practice;
-import FAANG_SCHOOL.List_Learning_theory.List_Learning_theory;
-import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ExpandingSpell;
-import FAANG_SCHOOL.Zadanie_Abstraktnie_Klassi_10_1.ReducingMagic;
-import FAANG_SCHOOL.Zadanie_Interface_9_1.Car;
-import FAANG_SCHOOL.Zadanie_Interface_9_1.Cloak;
+import FAANG_SCHOOL.Zadanie_List_Learning_11.Zadanie_1.List_Learning_practice;
+import FAANG_SCHOOL.Zadanie_Set_12.RemoveDuplicates;
 
-import java.lang.reflect.Array;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class MainMagicKlass {
     public static void main(String[] args) throws Zadanie_exception_8_2_CustomException_2 {
@@ -38,9 +30,9 @@ public class MainMagicKlass {
             System.err.println("Error: " + e.getMessage());
         }
         // Создаем объект нашего класса
-        List_Learning_practice program = new List_Learning_practice();
-        program.listOrderChain();
-        program.transform();
+        RemoveDuplicates rem = new RemoveDuplicates();
+        rem.PrintAllList();
+        rem.PrintAfterSet();
 
 
 

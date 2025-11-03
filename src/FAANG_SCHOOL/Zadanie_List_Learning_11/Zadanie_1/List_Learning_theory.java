@@ -1,4 +1,4 @@
-package FAANG_SCHOOL.List_Learning_theory;
+package FAANG_SCHOOL.Zadanie_List_Learning_11.Zadanie_1;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

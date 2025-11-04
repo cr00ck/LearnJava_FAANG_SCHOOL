@@ -11,7 +11,7 @@ public class List_Learning_practice {
         );
     }
     public void listOrderChain () {
-            System.out.println("Наш лист первоначально: " + list);
+        System.out.println("Наш лист первоначально: " + list);
         }
 
         public void listOrder () {

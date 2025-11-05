@@ -2,11 +2,11 @@ package FAANG_SCHOOL.Zadanie_Set_12;
 
 import java.util.HashSet;
 
-public class subsetCheck {
+public class SubsetCheck {
     HashSet<Integer> set1;
     HashSet<Integer> set2;
 
-    public subsetCheck() {
+    public SubsetCheck() {
         this.set1= new HashSet<>();
         this.set2= new HashSet<>();
 
@@ -33,5 +33,5 @@ public class subsetCheck {
 }
 //вот решение для этого класса, но обязательно импортировать этот класс в main
 //а то ииза этого долго не запускалось
-//subsetCheck one = new subsetCheck();
-//        one.subSetCheck();
+//SubsetCheck one = new SubsetCheck();
+//        one.SubSetCheck();

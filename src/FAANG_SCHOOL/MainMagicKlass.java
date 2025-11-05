@@ -1,10 +1,8 @@
 package FAANG_SCHOOL; //https://faang-school.com/courses
 
-import FAANG_SCHOOL.Zadanie_List_Learning_11.Zadanie_1.List_Learning_practice;
 import FAANG_SCHOOL.Zadanie_Set_12.RemoveDuplicates;
-import FAANG_SCHOOL.Zadanie_Set_12.subsetCheck;  // Импортируем класс
+
 import java.time.LocalDateTime;
-import java.util.HashSet;
 
 public class MainMagicKlass {
     public static void main(String[] args) throws Zadanie_exception_8_2_CustomException_2 {
@@ -31,8 +29,8 @@ public class MainMagicKlass {
             System.err.println("Error: " + e.getMessage());
         }
         // Создаем объект нашего класса
-        subsetCheck one = new subsetCheck();
-        one.subSetCheck();
+        RemoveDuplicates rem = new RemoveDuplicates();
+        rem.PrintAllList();
 
 
 

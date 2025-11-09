@@ -9,6 +9,6 @@ public class User {
     String workPlace;
     String adress;
 
-    //public Map groupUsers (List )
+
 
 }
